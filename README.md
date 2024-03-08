@@ -4,6 +4,11 @@
 
 Vai-gl RenderEngine is a WebGL2 TypeScript rendering engine component that leverages vertex attribute instancing. This engine is designed for efficiently rendering instances of vertex primitives with custom attributes while minimizing boilerplate and GL state management. See an example usage here: [audreyadora/harmony](https://github.com/audreyadora/harmony)
 
+## Install
+```typescript 
+pnmp install vai-gl
+`;
+
 ## Features
 
 - **Shader Support:** The engine supports custom vertex and fragment shaders. The default shaders, `PianoRollShaderVertex` and `PianoRollShaderFragment`, can be easily replaced with your own.
