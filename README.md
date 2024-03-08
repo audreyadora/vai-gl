@@ -59,7 +59,7 @@ const customRenderEngine = new RenderEngine({
 
 ### Examples
 
-This is a general example component class implementation which handles contextLost and canvas resize events which you can modify for your own implementation. You can also import and extend this class from 'Vai'.
+This is a general example component class implementation which handles contextLost and canvas resize events. You can also import and extend this wrapper class from 'Vai'.
 
 ```typescript 
 import { RenderEngine } from '../RenderEngine/RenderEngine';
