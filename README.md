@@ -1,4 +1,4 @@
-# vai-gl
+# vai-gl [![NPM](https://img.shields.io/npm/v/npm.svg?logo=npm)](https://www.npmjs.com/package/vai-gl)
 
 ## Overview
 
