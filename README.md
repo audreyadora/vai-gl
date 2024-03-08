@@ -7,7 +7,7 @@ Vai-gl RenderEngine is a WebGL2 TypeScript rendering engine component that lever
 ## Install
 ```typescript 
 pnmp install vai-gl
-`;
+```
 
 ## Features
 
