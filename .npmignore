@@ -3,3 +3,5 @@ __tests__
 .github
 .gitignore
 node_modules
+docs
+

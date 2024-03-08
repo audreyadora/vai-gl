@@ -4,30 +4,20 @@
   "root": ".",
   "output": "./.autodoc",
   "llms": [
-    "gpt-3.5-turbo",
-    "gpt-4"
+    "gpt-3.5-turbo"
   ],
   "ignore": [
     ".*",
     "*package-lock.json",
     "*package.json",
-    "tsconfig.json",
-    "tsconfig.module.json",
     "node_modules",
-    "coverage",
     "*dist*",
     "*build*",
     "*test*",
-    "__tests__",
     "*.svg",
     "*.md",
     "*.mdx",
     "*.toml",
-    "*.json",
-    "*.yml",
-    "*.yaml",
-    "jest.config.js",
-    "LICENSE",
     "*autodoc*"
   ],
   "filePrompt": "Write a detailed technical explanation of what this code does. \n      Focus on the high-level purpose of the code and how it may be used in the larger project.\n      Include code examples where appropriate. Keep you response between 100 and 300 words. \n      DO NOT RETURN MORE THAN 300 WORDS.\n      Output should be in markdown format.\n      Do not just list the methods and classes in this file.",
