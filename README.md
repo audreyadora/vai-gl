@@ -2,7 +2,7 @@
 
 ## Overview
 
-Vai-gl RenderEngine is a WebGL2 TypeScript rendering engine component that leverages vertex attribute instancing. This engine is designed for efficiently rendering instances of vertex primitives with custom attributes while minimizing boilerplate and GL state management. 
+Vai-gl RenderEngine is a WebGL2 TypeScript rendering engine component that leverages vertex attribute instancing. This engine is designed for efficiently rendering instances of vertex primitives with custom attributes while minimizing boilerplate and GL state management. Check it out in action over at [audreyadora/harmony](https://github.com/audreyadora/harmony)
 
 ## Features
 
