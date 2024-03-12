@@ -42,6 +42,36 @@ renderEngine.render({ attributeArrayF32List, numInstances });
 
 The RenderEngine class contains a contextLost flag that can be validated in the render loop to reinitialize the Render component when needed. 
 
+**Bundled Shader Params:**
+```typescript
+
+//default floats per layer
+const layer_float_length = 15
+
+//number of layers to render
+const layer_count = 1
+
+const attributeArrayF32List = new Float32Array( layer_count * layer_float_length )
+
+for (let layer_index=0; layer_index < layer_count; layer_index += 1) {
+    attributeArrayF32List.set([
+
+        xa,ya,xb,yb, //rectangle vertices scaled to viewport dimensions
+
+        r,g,b,a, // rgba color params scaled between 0 and 1
+
+        cxa,cya,cxb,cyb, // corner radius for vertices in px
+
+        width, height, // canvas dimensions in px
+
+        sigma // default is 0.25, adjust to blur rectangle edges - can be used to create a shadow effect underneath a second layer
+
+      ], layer_index * layer_float_length
+    )
+}
+
+```
+
 ### Customization
 
 Replace default shaders by providing your own vertex and fragment shader sources during initialization:
